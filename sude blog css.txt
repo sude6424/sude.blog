@@ -1,0 +1,199 @@
+/*Universal selektör*/
+
+
+*{
+    font-family: sans-serif;
+}
+
+
+h1,
+h2,
+h3 {
+    color: #76105f;
+    font-family: sans-serif;
+}
+
+h1 {
+
+    text-align: center;
+    font-size: 26px;
+    text-transform:uppercase;
+    font-style: italic;
+}
+
+h2 {
+
+    text-align: left;
+
+}
+p {
+    font-size: 22px;
+}
+
+#copyright{
+    color: gray;
+    font-size: 12px;
+}
+
+.yazar-metni {
+    font-size: 16px;
+    font-style: italic;
+}
+
+
+
+li:nth-child(even) {
+color: rgb(86, 70, 176);
+}
+li:nth-child(odd) {
+    color: rgb(186, 77, 90);
+    }
+
+
+
+
+
+a:link {
+    color: rgb(88, 196, 120);
+    text-decoration: wavy;
+    text-align: center;
+    padding: 15px;
+}
+a:visited{
+    color: rgb(194, 106, 106);
+}
+a:hover{
+    color: rgb(216, 195, 90);
+    text-decoration: underline;
+}
+a:active{
+    color:rgb(233, 137, 147);
+    background-color: black;
+    text-decoration: wavy;
+}
+
+aside {
+    border-top: 5px solid #1098ad;
+    border-bottom: 5px solid #1098ad;
+}
+
+.menu {
+
+    text-align: center;
+    padding: 15px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: rgb(86, 70, 113);
+
+}
+
+a:nth-child(1) {
+    color: bisque;
+    font-weight: 500;
+}
+
+a:nth-child(2) {
+    color: darkseagreen;
+    font-weight: 500;
+}
+
+a:nth-child(3) {
+    color: lightblue;
+    font-weight: 500;
+
+}
+
+a :nth-child(4) {
+    color: yellowgreen;
+    font-weight: 500;
+    text-decoration: wavy;
+    text-align: center;
+}
+
+.uçan-yazı {
+    font-weight: bold;
+    font-size: 25px;
+    color: darkslategrey;
+
+
+}
+
+.resim {
+    border: 5px solid;
+    border-color: darkslateblue;
+
+}
+
+article {
+    padding-left: 26px;
+}
+
+.resim2 {
+    border: 5px solid;
+    border-color: darkslateblue;
+}
+
+.başlık3 {
+    padding-top: 45px;
+    font-size: 25px;
+}
+
+article {
+    color:black;
+    font-family: cursive;
+    font-style: italic;
+    font-size: 15px;
+
+}
+ 
+.paragraf {
+    color: #76105f;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.baslik4 {
+    color: #76105f;
+    font-size: 28px;
+    font-family: serif;
+    padding-left: 26px;
+}
+.resim4 {
+    border: 5px solid;
+    border-color: darkslateblue;
+    
+}
+.resim5 {
+    border: 5px solid;
+    border-color: darkslateblue;
+}
+.resim6 {
+    border: 5px solid;
+    border-color: darkslateblue;
+}
+aside {
+    border: 5px solid gray;
+    margin: 25px;
+    padding: 25px;
+    background: bisque;
+    padding-right: 25px;
+    margin-right: 36px;
+    max-width: 1000px;
+    max-height: 1000px;
+}
+.to-top {
+
+    text-decoration: none;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    overflow: hidden;
+    width:40px;
+    background: url(data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBwgHBgkIBwgKCgkLDRYPDQwMDRsUFRAWIB0iIiAdHx8kKDQsJCYxJx8fLT0tMTU3Ojo6Iys/RD84QzQ5OjcBCgoKDQwNGg8PGjclHyU3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3N//AABEIAD0APQMBEQACEQEDEQH/xAAaAAACAwEBAAAAAAAAAAAAAAAAAQQFBgID/8QAMxAAAQMCAgcECgMAAAAAAAAAAQACAwQFBhESEyExQVFhQoGxwQcUIjQ1YnN0kbIVIzL/xAAaAQEAAwEBAQAAAAAAAAAAAAAAAQQFAwIG/8QAKhEAAgECAgoDAQEBAAAAAAAAAAECAwQxQQUREiEycYGxwfATM1HRIhT/2gAMAwEAAhEDEQA/AOl9ofFApAkIBAJSBIAQAhB2oPQkIETkgNfhrB/r1P61dNZFG8f1RtOi4/MeXQLIvNJfHLYpb/1mvZ6N+SO3V3fiKK/2WostXqpvbhftilA2PHkeivWl1C4hrWOa9yKN1azt56nhk/cysVorAhAkB2oJAnJAa/C+HYo4f5e9aMdPG3WMjl2DIdt3TkFjX182/ho45vwjZsbFJfNWwyXll3hrEhv13r2QM0KOCNmq0hk55JObjy3bB+eQoXNp/wA9OLlizRt7r55ySwWohW290eIZKyxXljBO2WRsLhs1ga45EcngfnfzA61KFS12a9J7t3vI5RrU7naoVVm/eZk7/Zaiy1eqm9uF+ZimA2PHkei2rW6hcQ1rFYow7q1nbz1PDJ+5lWrRVEgPRQST7DPQU11hmujHPpmZkgN0sncCRxCr3cKsqLjSxLNpKlGspVcPJ6YuxRLfJtRT6Udvjdm1h2GUjtO8h3791WyslQW1Li7F28u3WezHh7lt6Kvfrl9KPxcq+l+GHXwWNFcU+nkyFzJbdqxzSWuFVIQ5pyIIeciDwK06STpRT/F2M6q2qsmv19zWU+MKKvsE9DiGJ8lQ1mUb2Mz1py2HZ/l3Xd4LMlY1KVdToPd2/qNBXlKtRcK639/4zJRPD258eIW2nrMJxaxO1JB2oJEgPCePtt7wvLR0hLJmy9FPvty+lH4uWNpfhh18G1orin08mPunxSt+5l/crTo/XHkuxm1vtlzfcirqcwa4tOY3otxDWskskDhyPEL2mcJRaZ7IAQAhBr/RewMr7kRuMUfi5Y2mF/mHXwbmh5a3Pp5MVdPilb9zL+5WjR+uPJdihW+2XN9yKupzBAJCCxXs4AhAkBLtt0rrVJJLb59U97dF2bQ4HuK417anXSU1gd7e5qW8m4ZlRKXmRzpCXPcS5zjvJPFe0tlaketra3nCASECQFkvZXEgEgBSDiRge3bvG4o0TGWpkNczuJACkH//2Q==);
+    text-indent: -150px;
+    height: 40px;
+    
+
+}
+
+
+
