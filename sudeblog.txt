@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="tr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sude kadı Kimdir?</title>
+    <link rel="stylesheet" href="C:\Users\HP\AppData\Local\Temp\Rar$DIa15276.35534\style.css">
+  </head>
+  <body>
+    <header>
+
+        <h1>Sudenin Blog Sayfası</h1>
+      <nav>
+        <p class="menu" 
+          <strong>
+            <a class="link-menu" href="blog">Blog</a>
+            <a class="link-menu2" href="#">hobiler</a>
+            <a class="link-menu3" href="#">eğitim</a>
+            <a class="link-menu4" href="#">ayrıntı</a>
+          </strong>
+        </p>
+      </nav>
+    </header>
+    <article>
+      <header> 
+        <p class="uçan-yazı">
+        <marquee>SUDE KADI</marquee>
+
+        <h2>Sude Kadı Kimdir?</h2>
+        <img
+          src="C:\Users\HP\OneDrive\Masaüstü\html resim.jpg"
+          alt="Sude Kadının fotoğrafı"
+          width="175"
+          height="175"
+          class="resim"
+        />
+        <p class="yazar-metni">
+          <em
+            ><strong>Sude kadı</strong> tarafından
+            <strong>23 ekim 2022</strong> tarihinde yayınlanmıştır.</em
+          >
+        </p>
+        <img
+          src="C:\Users\HP\OneDrive\Masaüstü\istanbul.jpg"
+          alt="istanbuldan bir kare"
+          width="500"
+          height="200"
+          class="resim2"
+        />
+      </header>
+      <p>
+        31 ekim 2004 tarihinde İstanbulun göztepe ilçesinde dünyaya gelmiştir.
+      </p>
+      <p>
+       Bu zamana kadar bütün eğitimlerini tamamlamış ve güzel yerlere gelebilmek ve kendini bulabilmek için eğitimlere devam etmektedir. şuan da hala devam etmektedir
+      </p>
+      <h3 class="başlık3">Sude nelerden hoşlanır?</h3>
+
+      <p>
+        <ul>
+            <li>kitap okumaktan</li>
+            <li>müzik dinlemekten</li>
+            <li>yürüyüş yapmaktan</li>
+        </ul>
+      </p>
+      <p>
+        aslında bunlar genel bir görüş olarak gözükse de daha yakından tanımak bizim elimizde
+      </p>
+      <p>peki daha yakından tanımak istersek</p>
+      <ol>
+        <li>gastronomiye yakından ilgi duyar</li>
+        <li>yakın arkadaşlarıyla eğlenmeyi sever</li>
+        <li>yiğeniyle vakit geçirmeyi sever</li>
+      </ol>
+      <p>
+        daha ayrıntılı bilgi için buradan devam edebilirsiniz.
+        <a
+          href="https://developer.mozilla.org/en-US/docs/Web/HTML"
+          
+        ></a
+        >
+      </p>
+      <h3>Akademik hayatı nasıl?</h3>
+      <p>
+       ilköğretim ve ortaöğretimini tamamlamış ve şuan önlisans eğitimini almaktadır.
+      </p>
+      <ol>
+        <li>orhangazi ilköğretim okulu ve orhangazi ortaokulu</li>
+        <li>kurtköy anadolu lisesi </li>
+        <li>okan üniversitesi bilgisayar programcılığı</li>
+        <li> herhangi bir üniversitede lisansa tamamlamak😂</li>
+      </ol>
+      <p class="paragraf">
+       tahmin ediyorum ki az çok bir bilgi edinmiş olduk sude kadı hakkında 
+       
+      </p>
+    </article>
+    <aside>
+      <h4 class="baslik4">Biraz Daha Ayrıntı;</h4>
+      <ul>
+        <li>
+            <img
+              src="C:\Users\HP\OneDrive\Masaüstü\yemek.jpg"
+              alt="yemek yapan kız"
+              height="150"
+              width="150"
+              class="resim4"
+              />
+            <p>yemek yaparken</p>
+            <p><em>buse kılıç tarafından çekildi</em></p>
+          </li>
+        <li>
+          <img
+            src="C:\Users\HP\OneDrive\Masaüstü\arkadaş.jpg"
+            alt="arkadaş foroğrafı"
+            height="150"
+            width="150"
+          class="resim5"
+         /> 
+         <p>arkadaşlarıyla vakit geçirirken</p>
+          <p><em>bir yabancı tarafından çekildi</em></p>
+        </li>
+        <li>
+          <img
+            src="C:\Users\HP\OneDrive\Masaüstü\teyze.jpg"
+            alt="teyze yiğen fotoğrafı"
+            height="150"
+            width="150"
+            class="resim6"
+          />
+          <p>yiğeniyle vakit geçirirken</p>
+          <p><em>gül değer tarafından çekildi</em></p>
+        </li>
+      </ul>
+    </aside>
+    <a href="#" class="to-top" style="display: block;">
+      <span id="toTopHover" style="opacity: 0;"></span>To Top</a>
+      
+    
+   
+   <footer>
+      <p id="copyright">Copyright &copy; 2022 by sude kadı</p>
+    </footer>
+    
+    
+
+
+  </body>
+  
+  
+
+</html>
